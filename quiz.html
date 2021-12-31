@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Quiz</title>
+
+<style type="text/css">
+body{
+           background-image: url(aur.jpeg);
+           background-position:center;
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-size: 100% 100%;
+       }
+       label{
+    padding:5px;
+    color:black;
+    font-family:corbel,sans-serif;
+    
+    margin: 10px;
+}
+input[type="radio"] {
+  margin-top: -1px;
+  vertical-align: middle;
+  font-size: 20px;
+  color:purple;
+  
+}
+    </style>
+</head>
+<body>
+   <div align="center">
+   <h1 ><b>TAKE YOUR QUIZ</b></h1> 
+	<form  action="QuizMe" method="get">
+            <label style="font-size: 20px"><b>Which is the largest coffee producing state of India?</b></label><br>
+            <input type="radio" name="q1" value="a"><b>Karnataka</b><br>
+            <input type="radio" name="q1" value="b"><b>TamilNadu</b><br>
+            <input type="radio" name="q1" value="c"><b>Kerala</b><br>
+            <input type="radio" name="q1" value="d"><b>Arunachal Pradesh</b><br>
+            <br><br>
+            
+            <label style="font-size: 20px"><b>Which state has the largest area?</b></label><br><br>
+            <input type="radio" name="q2" value="a"><b>Maharashtra</b><br>
+            <input type="radio" name="q2" value="b"><b>Rajasthan</b><br>
+            <input type="radio" name="q2" value="c"><b>Uttar Pradesh</b><br>
+            <input type="radio" name="q2" value="d"><b>Madhya Pradesh</b><br><br><br>
+            
+            <label style="font-size: 20px"><b>Which state has the largest population?</b></label><br><br>
+            <input type="radio" name="q3" value="a"><b>Bihar</b><br>
+            <input type="radio" name="q3" value="b"><b>Maharashtra</b><br>
+            <input type="radio" name="q3" value="c"><b>Uttar Pradesh</b><br>
+            <input type="radio" name="q3" value="d"><b>Andhra Pradesh</b><br>
+            
+            <br><br>
+            <input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET"><br><br>
+           
+        </form>
+        <form action="Logout" method="get">
+        <input type="submit" value="LOGOUT">
+        </form>
+        </div>
+</body>
+</html>
